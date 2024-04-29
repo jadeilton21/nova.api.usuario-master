@@ -4,6 +4,8 @@ import jdk.jfr.Registered;
 import org.springframework.stereotype.Repository;
 import usuario.api.nova.doMain.Usuario;
 
+import java.util.List;
+
 @Repository
 public class UsuarioRepository {
 
@@ -15,5 +17,8 @@ public class UsuarioRepository {
     }
 
     public void deletar(Integer id) {
+    }
+
+    public List<Usuario> listar() {
     }
 }
