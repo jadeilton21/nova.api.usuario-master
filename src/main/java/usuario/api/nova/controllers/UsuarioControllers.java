@@ -33,7 +33,7 @@ public class UsuarioControllers {
     }
     @GetMapping
     public Usuario listarUmUsuario(@PathVariable("id") Integer id){
-        return repository.testarUmUsuario();
+        return repository.testarUmUsuario(id);
     }
 
 }
