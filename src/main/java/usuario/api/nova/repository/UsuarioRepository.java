@@ -10,4 +10,7 @@ public class UsuarioRepository {
 
     public void cadastrar(Usuario usuario) {
     }
+
+    public void atualizar(Usuario usuario) {
+    }
 }
