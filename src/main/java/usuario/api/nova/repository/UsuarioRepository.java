@@ -16,6 +16,8 @@ public class UsuarioRepository {
     }
 
     public void atualizar(Usuario usuario) {
+        System.out.println("Atualizado - Usúario é atualizado na camada de Repository(banco de dados)");
+        System.out.println(usuario);
     }
 
     public void deletar(Integer id) {
