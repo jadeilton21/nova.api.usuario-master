@@ -13,4 +13,7 @@ public class UsuarioRepository {
 
     public void atualizar(Usuario usuario) {
     }
+
+    public void deletar(Integer id) {
+    }
 }
