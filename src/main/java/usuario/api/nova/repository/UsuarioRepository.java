@@ -21,4 +21,7 @@ public class UsuarioRepository {
 
     public List<Usuario> listar() {
     }
+
+    public Usuario testarUmUsuario() {
+    }
 }
