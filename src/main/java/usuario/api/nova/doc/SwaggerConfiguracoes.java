@@ -45,7 +45,7 @@ public class SwaggerConfiguracoes {
 
         docket
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("web.dio.api.my.dio.api.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("usuario.api.nova.controllers"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(this.informacoesApi().build())
